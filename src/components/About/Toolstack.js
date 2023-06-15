@@ -5,7 +5,8 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiGithub
+  SiGithub,
+  SiNetlify
 } from "react-icons/si";
 import {
     DiAtlassian,
@@ -30,9 +31,6 @@ function Toolstack() {
         <SiLinux />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiUbuntu />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
             <DiTerminal />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -43,18 +41,6 @@ function Toolstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiVisualstudio />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiAws />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiAtlassian />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiDocker />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiPostman />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiGit />
@@ -69,13 +55,7 @@ function Toolstack() {
             <DiDatabase />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <SiHeroku />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiMysql />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiPostgresql />
+            <SiNetlify />
         </Col>
     </Row>
   );

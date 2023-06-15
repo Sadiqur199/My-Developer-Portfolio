@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I'm <span className="purple">Michael Beebower </span>
-            from <span className="purple"> Austin, Texas.</span>
-            <br />I'm a 4th-year student, pursuing a <a href="https://www6.austincc.edu/cms/site/www/catalog/programmaps/programmap.php?ap=7049&yr=2022">Bachelors degree in Software Development at ACC</a>.
+            Hi, I'm <span className="purple">MD : Sadiqur Rahman </span>
+            from <span className="purple"> Dhaka , Bangladesh.</span>
+            <br />I'm a 4th-year student, pursuing a <a href="https://www6.austincc.edu/cms/site/www/catalog/programmaps/programmap.php?ap=7049&yr=2022">Bachelors degree in Computer Science at BUBT</a>.
             <br />
             <br />
             <br />
@@ -29,9 +29,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "All repetitive, menial computer tasks can most likely be automated or partially automated with the right code."{" "}
+            "Web developers possess the ability to automate or partially automate a wide range of repetitive and mundane Website  tasks by utilizing the appropriate code."{" "}
           </p>
-          <footer className="blockquote-footer">Michael Beebower</footer>
+          <footer className="blockquote-footer">Sadiqur Rahman</footer>
         </blockquote>
       </Card.Body>
     </Card>
