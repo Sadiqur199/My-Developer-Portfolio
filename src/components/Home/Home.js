@@ -1,9 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homelogo from '../../Assets/portfolio-removebg-preview.png'
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import pdf from "../../Assets/Web Developer Resume.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import BBtn from "../BBtn";
 
 function Home() {
   return (
@@ -24,6 +28,9 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+              </div>
+              <div>
+                <BBtn></BBtn>
               </div>
             </Col>
 
