@@ -1,4 +1,4 @@
-<h2 align="center">
+<!-- <h2 align="center">
   Portfolio Website - v1.0.0<br/>
   <a href="https://michaelbeebower.com" target="_blank">michaelbeebower.com</a>
 </h2>
@@ -68,4 +68,4 @@ You will find all the components used and you can edit your information accordin
 
 ### Show your support
 
-Give a ⭐ if you like this website!
+Give a ⭐ if you like this website! -->
