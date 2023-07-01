@@ -30,7 +30,6 @@ function Home() {
                 <Type />
               </div>
               <div>
-                <BBtn></BBtn>
               </div>
             </Col>
 
