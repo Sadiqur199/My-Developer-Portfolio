@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 // import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import img1 from '../../Assets/Chines-Food-Restaurant-Home.png'
+import img2 from '../../Assets/ZET.png'
+import img3 from '../../Assets/CarToys-Home.png'
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
 // import editor from "../../Assets/Projects/codeEditor.png";
@@ -27,21 +29,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={}
-              //isBlog={false}
-              //title=""
-              //description=""
-              //link="https://github.com/beebus/"
+              imgPath={img3}
+              isBlog={false}
+              liveLink="https://toy-car-395e4.web.app/"
+              title="Toy-Car"
+              description="use the react router dom and other technology .. login system product add and delete system etc.."
+              link="https://github.com/Sadiqur199/ToyCar"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={}
-              //isBlog={false}
-              //title=""
-              //description=""
-              //link="https://github.com/beebus/"
+              imgPath={img2}
+              isBlog={false}
+              liveLink="https://zet-web.netlify.app/"
+              title="Zet Frontend Web"
+              description=" use the react router dom and react rating other technology "
+              link="https://github.com/Sadiqur199/Zet-frontend-web"
             />
           </Col>
 
@@ -62,7 +66,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               //imgPath={}
               //isBlog={false}
@@ -70,9 +74,9 @@ function Projects() {
               //description=""
               //link="https://github.com/beebus/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               //imgPath={}
               //isBlog={false}
@@ -80,7 +84,7 @@ function Projects() {
               //description=""
               //link="https://github.com/beebus/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
